@@ -1,0 +1,81 @@
+body {
+    background-color: #11191f !important;
+    color:white;
+}
+table{
+    color:white !important;
+}
+nav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Main Section */
+main, h2 {
+  margin: 20px;
+  padding: 20px;
+  background-color: #11191f;
+  border: 1px solid #11191f;
+  border-radius: 5px;
+}
+
+/* Form Sections */
+form {
+  margin: 20px;
+  padding: 20px;
+  background-color: #11191f;
+  border: 1px solid #11191f;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 12px;
+  background-color: rgb(100, 94, 94);
+  border: 1px solid rgb(100, 94, 94);
+  border-radius: 4px;
+  resize: vertical;
+}
+
+form label {
+  padding: 12px 0 6px 0;
+  display: inline-block;
+}
+
+form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #45a049;
+}
+.hladac {
+    background-color: #11191f !important;
+    width: 250px !important;
+    height: 100px !important;
+    padding: 0 !important;
+    border: 0 !important;
+  }
